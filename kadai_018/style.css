@@ -1,1 +1,86 @@
-css
+#top {
+  width: 800px;
+  background-color: #dcc9f4;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#top-child {
+  display: inline-block;
+  width: 20%;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #ffd9df;
+}
+
+#middle {
+  width: 800px;
+  height: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffd9df;
+}
+
+#middle-child01 {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+
+#middle-child02 {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+
+#middle-child03 {
+  position: relative;
+  top: 100px;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+
+#bottom {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #87ceeb;
+}
+
+#bottom-child01 {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+  position: relative;
+  top: auto;
+  left: 200px;
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+
+#bottom-child03 {
+  position: relative;
+  top: auto;
+  left: 400px;
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
