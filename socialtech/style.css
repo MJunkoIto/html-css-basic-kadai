@@ -1,6 +1,5 @@
-body {
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
-    sans-serif;
+* {
+  box-sizing: border-box;
 }
 p {
   font-size: 15px;
@@ -9,6 +8,8 @@ body {
   max-width: 1080px;
   min-width: 960px;
   margin: 0 auto o auto;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
+    sans-serif;
 }
 header {
   display: flex;
