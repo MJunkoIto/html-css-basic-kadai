@@ -42,7 +42,7 @@ header {
 
 #main-visual {
   position: relative;
-  height: 400px;
+  height: 470px;
 }
 
 #main-message {
@@ -71,7 +71,7 @@ header {
 main-visual > img {
   max-width: 620px;
   border-radius: 476px 0 0 0;
-  position: abusolute;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
