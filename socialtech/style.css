@@ -32,7 +32,7 @@ header {
 #nav-pc > a:visited {
   color: #0d0d0d;
 }
-#nav-pc a:hover {
+#nav-pc > a:hover {
   color: #0d0d0d;
   text-decoration: underline;
 }
@@ -42,7 +42,7 @@ header {
 
 #main-visual {
   position: relative;
-  height: 470px;
+  height: 400px;
 }
 
 #main-message {
@@ -68,7 +68,7 @@ header {
   font-size: 28px;
   margin: 0 0 0 50px;
 }
-main-visual > img {
+#main-visual > img {
   max-width: 620px;
   border-radius: 476px 0 0 0;
   position: absolute;
